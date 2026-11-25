@@ -22,3 +22,6 @@ $RECYCLE.BIN/
 *.log
 tmp/
 temp/
+
+# Local helper scripts
+push-to-github.bat
