@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <defs>
+    <pattern id="grid-part" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#222228" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="#121215"/>
+  <rect width="400" height="280" fill="url(#grid-part)"/>
+  <rect x="6" y="6" width="388" height="268" fill="none" stroke="#2a2a32" stroke-width="1.5"/>
+  <rect x="10" y="10" width="380" height="260" fill="none" stroke="#1c1c22" stroke-width="1"/>
+  
+  <text x="18" y="28" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#E8A317" font-weight="bold">SKU: SZK-SA-512</text>
+  <text x="382" y="28" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#777" text-anchor="end">SPEEDWELL SPEC</text>
+  
+  <!-- Artwork -->
+  <g>
+            <!-- Top mount eyelet -->
+            <circle cx="200" cy="70" r="14" fill="#222" stroke="#E8A317" stroke-width="3"/>
+            <circle cx="200" cy="70" r="6" fill="#000"/>
+            <!-- Piston shaft (chrome) -->
+            <rect x="196" y="84" width="8" height="40" fill="#F3ECD8" stroke="#aaa" stroke-width="1"/>
+            <!-- Damper cylinder body -->
+            <rect x="185" y="124" width="30" height="75" rx="3" fill="#E8A317" stroke="#000" stroke-width="2"/>
+            <text x="200" y="165" font-family="monospace" font-size="8" fill="#000" text-anchor="middle" font-weight="bold">GAS</text>
+            <!-- Bottom eyelet -->
+            <circle cx="200" cy="212" r="14" fill="#222" stroke="#E8A317" stroke-width="3"/>
+            <circle cx="200" cy="212" r="6" fill="#000"/>
+        </g>
+  
+  <!-- Labels -->
+  <text x="200" y="240" font-family="'Oswald', sans-serif" font-size="14" fill="#F3ECD8" text-anchor="middle" font-weight="bold" letter-spacing="1">GAS SHOCK ABSORBER</text>
+  <text x="200" y="258" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#8a8a93" text-anchor="middle">NITROGEN TWIN-TUBE PRESSURIZED STRUT</text>
+</svg>

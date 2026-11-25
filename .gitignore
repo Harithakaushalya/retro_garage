@@ -1,0 +1,24 @@
+# Cloudflare tunnel binary
+cloudflared.exe
+
+# Dependencies & caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary files & logs
+*.log
+tmp/
+temp/

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <defs>
+    <pattern id="grid-part" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#222228" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="#121215"/>
+  <rect width="400" height="280" fill="url(#grid-part)"/>
+  <rect x="6" y="6" width="388" height="268" fill="none" stroke="#2a2a32" stroke-width="1.5"/>
+  <rect x="10" y="10" width="380" height="260" fill="none" stroke="#1c1c22" stroke-width="1"/>
+  
+  <text x="18" y="28" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#3a86ff" font-weight="bold">SKU: TOY-RD-601</text>
+  <text x="382" y="28" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#777" text-anchor="end">SPEEDWELL SPEC</text>
+  
+  <!-- Artwork -->
+  <g>
+            <!-- Outer tank frame -->
+            <rect x="125" y="90" width="150" height="100" rx="4" fill="#1a202c" stroke="#3a86ff" stroke-width="3"/>
+            <!-- Finned cooling core lines -->
+            <line x1="140" y1="102" x2="260" y2="102" stroke="#aaa" stroke-width="2"/>
+            <line x1="140" y1="112" x2="260" y2="112" stroke="#888" stroke-width="2"/>
+            <line x1="140" y1="122" x2="260" y2="122" stroke="#aaa" stroke-width="2"/>
+            <line x1="140" y1="132" x2="260" y2="132" stroke="#888" stroke-width="2"/>
+            <line x1="140" y1="142" x2="260" y2="142" stroke="#aaa" stroke-width="2"/>
+            <line x1="140" y1="152" x2="260" y2="152" stroke="#888" stroke-width="2"/>
+            <line x1="140" y1="162" x2="260" y2="162" stroke="#aaa" stroke-width="2"/>
+            <line x1="140" y1="172" x2="260" y2="172" stroke="#888" stroke-width="2"/>
+            <!-- Inlet neck / radiator cap -->
+            <rect x="140" y="78" width="20" height="12" fill="#E8A317" stroke="#000" stroke-width="1.5"/>
+            <rect x="136" y="74" width="28" height="6" rx="2" fill="#D93829"/>
+            <!-- Outlet spout -->
+            <rect x="250" y="180" width="16" height="18" fill="#888" stroke="#3a86ff" stroke-width="2"/>
+        </g>
+  
+  <!-- Labels -->
+  <text x="200" y="240" font-family="'Oswald', sans-serif" font-size="14" fill="#F3ECD8" text-anchor="middle" font-weight="bold" letter-spacing="1">ALUMINUM PERFORMANCE RADIATOR</text>
+  <text x="200" y="258" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#8a8a93" text-anchor="middle">DUAL ROW HIGH EFFICIENCY COOLING CORE</text>
+</svg>

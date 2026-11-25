@@ -1,0 +1,21 @@
+# ==============================================================
+# SPEEDWELL RETRO GARAGE - APACHE WEB SERVER CONFIGURATION
+# ==============================================================
+
+# Enable Directory Options
+Options -Indexes +FollowSymLinks
+
+# Default Index File
+DirectoryIndex index.php index.html
+
+# Prevent Directory Browsing & Protect Sensitive Files
+<FilesMatch "^(database\.sql|config\.php|\.env|\.git)">
+    Require all denied
+</FilesMatch>
+
+# Allow access to assets and uploads
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|svg|png|jpg|jpeg|webp|woff|woff2|ttf)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+</IfModule>

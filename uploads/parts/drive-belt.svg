@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <defs>
+    <pattern id="grid-part" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#222228" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="#121215"/>
+  <rect width="400" height="280" fill="url(#grid-part)"/>
+  <rect x="6" y="6" width="388" height="268" fill="none" stroke="#2a2a32" stroke-width="1.5"/>
+  <rect x="10" y="10" width="380" height="260" fill="none" stroke="#1c1c22" stroke-width="1"/>
+  
+  <text x="18" y="28" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#2A9D8F" font-weight="bold">SKU: SZK-BT-309</text>
+  <text x="382" y="28" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#777" text-anchor="end">SPEEDWELL SPEC</text>
+  
+  <!-- Artwork -->
+  <g>
+            <!-- Pulleys -->
+            <circle cx="150" cy="140" r="35" fill="#1b1b22" stroke="#2A9D8F" stroke-width="3"/>
+            <circle cx="250" cy="140" r="22" fill="#1b1b22" stroke="#2A9D8F" stroke-width="3"/>
+            <circle cx="200" cy="170" r="16" fill="#1b1b22" stroke="#E8A317" stroke-width="2"/>
+            <!-- Looped serpentine belt -->
+            <path d="M 150 105 L 250 118 A 22 22 0 0 1 268 152 L 214 176 A 16 16 0 0 1 188 172 L 122 155 A 35 35 0 0 1 150 105 Z" fill="none" stroke="#D93829" stroke-width="6" stroke-linecap="round"/>
+        </g>
+  
+  <!-- Labels -->
+  <text x="200" y="240" font-family="'Oswald', sans-serif" font-size="14" fill="#F3ECD8" text-anchor="middle" font-weight="bold" letter-spacing="1">SYNTHETIC DRIVE BELT</text>
+  <text x="200" y="258" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#8a8a93" text-anchor="middle">EPDM REINFORCED V-RIBBED SERPENTINE</text>
+</svg>
